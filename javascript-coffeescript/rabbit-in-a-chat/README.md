@@ -1,6 +1,10 @@
 rabbit-in-a-chat
 ================
 
+**NOTE:** To move this to the junk drawer, I had to remove the `.git` folder
+from the sockjs-client submodule.  If you want to play around with this repo,
+you'll need to reinitialize the submodule.
+
 ## What It Is
 
 This is *theoretically* a basic chat client, functioning as a proof of concept with
