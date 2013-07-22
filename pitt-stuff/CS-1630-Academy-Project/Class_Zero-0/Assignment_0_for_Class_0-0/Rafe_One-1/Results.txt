@@ -1,0 +1,29 @@
+
+Compilation of Prime.java
+--------------------------------------------------
+
+
+
+
+Output of running 
+--------------------------------------------------
+
+Enter the starting number > Enter the ending number > the prime numbers between 10 and 40 is:
+11
+13
+17
+19
+23
+29
+31
+37
+
+Output of Dif with sample.txt 
+--------------------------------------------------
+
+
+The files are 77.777777777778% the same with differences on lines: 
+4
+7
+
+
