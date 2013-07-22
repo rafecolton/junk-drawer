@@ -1,0 +1,4 @@
+#coffee_compiler: coffee -wc -o ./scripts ./coffee/*.coffee
+toaster: toaster -w
+carrot_server: node server/rabbit-server.js
+duster: node duster.js

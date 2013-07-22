@@ -1,0 +1,19 @@
+{#message}
+	<div class='message'>
+		<span class='
+			{@select key=type}
+				{@eq value="logoff"}system{/eq}
+				{@eq value="login"}system{/eq}
+				{@eq value="message"}received{/eq}
+				{@eq value="sent"}sent{/eq}
+				{@eq value="begin_typing"}system-temp{/eq}
+				{@eq value="end_typing"}system-temp{/eq}
+				{@eq value="new_user_received"}system{/eq}
+				{@default}invisible{/default}
+			{/select}
+		'>
+			{@eq key=type value="sent"}(me): {:else}{?from}{from}: {/from}{/eq}
+		</span>
+		{content}
+	</div>
+{/message}

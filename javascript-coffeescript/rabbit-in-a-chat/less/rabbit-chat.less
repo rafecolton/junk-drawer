@@ -1,0 +1,44 @@
+html, body, head{
+	border: 0;
+	padding: 0;
+}
+
+.invisible{
+	display: none;
+}
+
+#chat{
+
+	div:not(.message){
+		border: 1px solid black;
+	}
+
+	#viewport{
+		height: 500px;
+		width: 490px;
+		padding-left: 10px;
+
+		.message{
+			.system{
+				color: red;
+			}
+			.sent{
+				color: blue;
+			}
+			.received{
+				color: green;
+			}
+			.system-temp{
+				color: orange;
+			}
+		}
+	}
+
+	#textport{
+		height: 50px;
+		width: 490px;
+		line-height: 50px;
+		padding-left: 10px;
+	}
+	overflow-y: scroll;
+}

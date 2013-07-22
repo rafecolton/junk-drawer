@@ -1,0 +1,12 @@
+{!
+buddy:
+	status:
+	name:
+	nickname:
+!}
+<div class='buddy'>
+	{?status}
+		<span class='status {status}'>{status}</span>
+	{/status}
+	<span class='buddy-username'{?name} title='{name}'{/name}>{username}</span>
+</div>
